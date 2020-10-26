@@ -20,3 +20,12 @@ a {
   font-size:1.5rem;
   color:white;
 }
+
+.footer-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size:1rem;
+  color:white;
+  font-style: italic;
+  font-weight: 0.1;
+}
+
