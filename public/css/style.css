@@ -91,3 +91,28 @@ body {
   table-layout: fixed;
   width: 30rem;
 }
+
+.card{
+  background-color: #001533;
+  border-color: #42eb00;
+}
+.card-title{
+  color: #42eb00;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.card-text{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: justify;
+}
+
+.card-link{
+  color: #42eb00;
+  font-family: 'Roboto Mono', monospace;
+  transition: 0.3s;
+}
+
+.card-link:hover{
+  color: #299100;
+}
