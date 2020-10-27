@@ -7,14 +7,16 @@ html
     link(href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel='stylesheet')
 
   body
-    nav(class="navbar navbar-expand-lg fixed-top")
-      ul(class="navbar-nav ml-auto")
-        li(class="nav-item")
-          a(class="nav-link nav-btn btn" href="#home")="Home"
-        li(class="nav-item")
-          a(class="nav-link nav-btn btn" href="#about")="About Me"
-        li(class="nav-item")
-          a(class="nav-link nav-btn btn" href="#projects")="Projects"
+    div(class="nav-container")
+      div(class="container")
+        nav(class="navbar navbar-expand-lg fixed-top")
+          ul(class="navbar-nav ml-auto")
+            li(class="nav-item")
+              a(class="nav-link nav-btn btn" href="#home" onclick="document.documentElement.scrollTo({top: 0})")="Home"
+            li(class="nav-item")
+              a(class="nav-link nav-btn btn" href="#about")="About Me"
+            li(class="nav-item")
+              a(class="nav-link nav-btn btn" href="#projects")="Projects"
     block content
     footer(class="page-footer font-small fixed-bottom" style="padding-bottom:10px;")
       div(class="footer-text text-center py3" style="padding-bottom:3px;")="Powered by Node, Express, and Pug"
