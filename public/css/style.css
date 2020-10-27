@@ -127,3 +127,11 @@ nav{
 .card-link:hover{
   color: #299100;
 }
+
+#encryptedEmail, #linkedin{
+  color:#42eb00;
+}
+
+#encryptedEmail:hover, #linkedin:hover{
+  color: #299100;
+}

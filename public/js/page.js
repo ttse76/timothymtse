@@ -1,15 +1,4 @@
-$(document).ready(function(){
-    /*$('.nav-btn').on('click', function(event){
-        if(this.hash !== ""){
-            event.preventDefault();
-
-            var hash = this.hash;
-
-            $('html', 'body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800, function(){
-                window.location.hash=hash;
-            });
-        }
-    });*/
-});
+let username = 'timtse76';
+let servername = 'gmail.com';
+let out = '<a href="mailto:' + username + '@' + servername + '" />';
+document.getElementById('encr').innerHTML = out;
