@@ -1,4 +1,9 @@
-let username = 'timtse76';
-let servername = 'gmail.com';
-let out = '<a href="mailto:' + username + '@' + servername + '" />';
-document.getElementById('encr').innerHTML = out;
+$(document).ready(function(){
+    let preloaderFadeOutTime = 500;
+    function hidePreloader(){
+        let preloader = $('.preload-wrapper');
+        preloader.delay(1500);
+        preloader.fadeOut(preloaderFadeOutTime);
+    }
+    hidePreloader();
+});

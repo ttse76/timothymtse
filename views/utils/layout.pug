@@ -6,10 +6,13 @@ html
     meta(name="keywords" content="tim, timothy, timothy tse, timothy m tse, programming, programmer, software, engineer, javascript, java, node, express, pug, web development, python")
     link(rel='stylesheet' href='/css/bootstrap.min.css')
     link(rel='stylesheet' href='/css/style.css')
+    link(rel='stylesheet' href='/css/preload.css')
     link(href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel='stylesheet')
     link(rel="icon" href="/img/favicon.ico")
 
   body
+    div(class="preload-wrapper")
+      include preload.pug
     div(class="nav-container")
       div(class="container")
         include nav.pug
@@ -20,4 +23,6 @@ html
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
     script(src="/js/bootstrap.min.js")
     script.
-      var s="=b!je>#fodszqufeFnbjm#!isfg>#nbjmup;ujnutf87Ahnbjm/dpn#?Fnbjm=0b?";var m="";for(var i=0;i<s.length;i++)m+=String.fromCharCode(s.charCodeAt(i)-1);document.getElementById("crypted").innerHTML = m;
+      var s="=b!je>#fodszqufeFnbjm#!isfg>#nbjmup;ujnutf87Ahnbjm/dpn#?Fnbjm=0b?";var m="";for(var i=0;i<s.length;i++)m+=String.fromCharCode(s.charCodeAt(i)-1);
+      document.getElementById("crypted").innerHTML = m;
+    script(src="/js/page.js")

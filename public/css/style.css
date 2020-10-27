@@ -147,6 +147,16 @@ nav{
   background-color: #42eb00;
 }
 
+.preload-wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000b1b;
+  z-index: 999999;
+}
+
 @media(max-width: 991px){
   .nav-item{
     padding-top: 5px;
