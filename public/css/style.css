@@ -10,15 +10,16 @@ body {
   height: 100%;
 }
 footer{
-  background-color: #001533;
+  padding-top:5px;
+  background-color: #000b1b;
 }
 
 nav{
-  background-color: #001533;
+  background-color: #000b1b;
 }
 
 .nav-btn {
-  background-color: #001533;
+  background-color: #000b1b;
   color: #42eb00;
   border-color:#42eb00;
   font-family: 'Montserrat', sans-serif;
@@ -29,7 +30,7 @@ nav{
 
 .nav-btn:hover{
   background-color: #42eb00;
-  color:#001533;
+  color:#000b1b;
 }
 
 .nav-item{
@@ -140,4 +141,19 @@ nav{
   float:left;
   clear:left;
   padding-bottom: 10px;
+}
+
+.navbar-toggler{
+  color:#42eb00;
+  background-color: #42eb00;
+}
+
+@media(max-width: 991px){
+  .nav-item{
+    padding-top: 5px;
+  }
+  .nav-btn{
+    border-color: #000b1b;
+    width: 100px;
+  }
 }
