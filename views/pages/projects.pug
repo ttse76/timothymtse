@@ -3,5 +3,12 @@ div(id="projects" class="full-height d-flex align-items-center")
         div(class="col-lg-12 offset-lg-3")
             h2(class="section-header" style="padding-bottom:5px;")="Projects"
             div(class="card-deck")
-                include ../projects/iasip.pug
-                include ../projects/site.pug
+                each proj in projObj
+                    div(class="card" style="width: 20rem;")
+                        div(class="card-body")
+                            h5(class="card-title")=proj.title
+                            p(class="card-text")=proj.description
+                            each link in proj.links
+                                div(class="link-container")
+                                    a(class="card-link" target="_blank" href=link[1])=link[0]
+                                

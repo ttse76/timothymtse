@@ -1,0 +1,18 @@
+{
+    "iasip":{
+        "title": "IASIP Soundboard",
+        "description": "This is a discord bot that operates as a soundboard for quotes from 'It's Always Sunny in Philadelphia'.",
+        "links":[
+            ["Invite this bot to your server!", "https://discord.com/oauth2/authorize?client_id=334873831636336640&permissions=3155968&scope=bot"],
+            ["View on Github", "https://github.com/ttse76/iasip-bot"]
+        ]
+    },
+    "site":{
+        "title": "This Site",
+        "description": "This site is fully open source. Technologies being used include Node, Express, Pug, and Bootstrap.",
+        "links":[
+            ["View on Github", "https://github.com/ttse76/timothymtse"]    
+        ]
+    }
+   
+}
