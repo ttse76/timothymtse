@@ -1,10 +1,18 @@
-div(id="contact" class="full-height d-flex align-items-center justify-content-center")
+div(id="contact" class="full-height d-flex align-items-center")
     div(class="h-100 row align-items-center")
-        div(class="col-lg-8 offset-lg-2")
+        div(class="col-lg-12 offset-lg-6")
             h2(class="section-header")="Contact"
             p(class="paragraph-text")="Want to get in touch? You can find me at the following links:"
-            ui(style="list-style=none;")
-                li
-                    span(id="crypted")
-                li(style="padding-top:5px;")
-                    a(id="linkedin" href="https://www.linkedin.com/in/timothy-tse-723269103/")="LinkedIn"
+            table(class="table contact-table")
+                tbody
+                    td(class="contact-item")
+                        div(class="contact-source" data-toogle="tooltip" data-placement="bottom" title="Email")
+                            div(id="crypted")
+                    td(class="contact-item")
+                        div(class="contact-source" data-toogle="tooltip" data-placement="bottom" title="LinkedIn")
+                            a(class="contact-link" href="https://www.linkedin.com/in/timothy-tse-723269103/")
+                                img(class="contact-img" src="/img/linkedin.png")
+                    td(class="contact-item")
+                        div(class="contact-source" data-toogle="tooltip" data-placement="bottom" title="GitHub")
+                            a(class="contact-link" href="https://github.com/ttse76")
+                                img(class="contact-img" src="/img/github.png")
