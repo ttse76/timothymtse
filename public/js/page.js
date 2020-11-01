@@ -6,7 +6,7 @@ $(document).ready(function(){
         preloader.fadeOut(preloaderFadeOutTime);
     }
     hidePreloader();
-    $('#encryptedEmail').addClass('contact-link').html('<img class="contact-img" src="/img/gmail.png" >');
+    $('#encryptedEmail').addClass('contact-link').attr('target', '_blank').html('<img class="contact-img" src="/img/gmail.png" >');
     $('div').tooltip({
         container: '.contact-source'
      });
