@@ -20,6 +20,11 @@
             ["Invite this bot to your server!", "https://discord.com/oauth2/authorize?client_id=334873831636336640&permissions=3155968&scope=bot"],
             ["View on Github", "https://github.com/ttse76/iasip-bot"]
         ]
+    },
+    "sportsdata":{
+        "title":"Football Analytics",
+        "description":"This site follows my work in creating a statical model to predict outcomes of football games. Website is currently under construction.",
+        "links":[]
     }
    
 }
