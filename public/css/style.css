@@ -196,3 +196,7 @@ nav{
 .tooltip{
   padding-top:14px;
 }
+
+.list-group-item{
+  background-color: transparent;
+}
