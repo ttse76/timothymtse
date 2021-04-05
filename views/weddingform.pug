@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        title= title
+        meta(name="description" content="Website of Timothy Tse")
+        meta(name="keywords" content="tim, timothy, timothy tse, timothy m tse, programming, programmer, software, engineer, javascript, java, node, express, pug, web development, python")
+        link(rel='stylesheet' href='/css/bootstrap.min.css')
+        link(rel='stylesheet' href='/css/style.css')
+    body
+        div(class="container")
+            div(class="row")
+                div(class="col")
+                    form(name="guestform" action="/submitguests" method="post")
+                        div(class="form-group")
+                            label(for="guestName" class="section-header")="Guest Name"
+                            input(type="text" name="guestName" id="guestName" class="form-control")
+                        div(class="form-group")
+                            label(for="guestEmail" class="section-header")="Guest Email"
+                            input(type="email" name="guestEmail" id="guestEmail" class="form-control")
+                        div(class="form-group")
+                            label(for="guestPhone" class="section-header")="Guest Phone"
+                            input(type="text" name="guestPhone" id="guestPhone" class="form-control")
+                        button(class="nav-btn btn" type="Submit")="Submit"
