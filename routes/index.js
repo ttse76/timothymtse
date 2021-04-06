@@ -17,9 +17,4 @@ router.get('/' + Connection, (req, res) => {
   res.render('weddingform.pug');
 });
 
-router.get('/ree', (req, res) =>{
-  const ran = utils.makeid(40);
-  res.json({'test': ran});
-});
-
 module.exports = router;
