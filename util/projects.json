@@ -6,11 +6,20 @@
             ["View on Github", "https://github.com/ttse76/timothymtse"]    
         ]
     },
-    "analysis":{
-        "title": "Economic Analysis of Sales",
-        "description": "I am currently working on a project to add an analysis view for customer sales for Datacor CRM using React. This analysis is a grading system assigning a grade depending where in the business cycle they are.",
+    "discordsoundboard":{
+        "title": "Discord Soundboard",
+        "description": "Discord Soundboard is a framework to simplify the process of creating soundboard bots for Discord. Initalizing it requires only two lines of code with all setup in a JSON file.",
         "links":[
-            ["ITR Economics' Rate of Change model", "https://www.itreconomics.com/methodology"]
+            ["View on Github", "https://github.com/ttse76/discord-soundboard"],
+            ["View on the NPM registry", "https://www.npmjs.com/package/discord-soundboard"]
+        ]
+    },
+    "mundane-utils":{
+        "title": "mundane-utils",
+        "description": "A simple lightweight package that performs common coding tasks, like checking if a string is empty and removing an item from an array. This allows your code to not be taken up by utility functions, instead placing them all in a single package.",
+        "links":[
+            ["View on Github", "https://github.com/ttse76/mundane-utils"],
+            ["View on the NPM registry", "https://www.npmjs.com/package/mundane-utils"]
         ]
     },
     "iasip":{
@@ -20,11 +29,5 @@
             ["Invite this bot to your server!", "https://discord.com/oauth2/authorize?client_id=334873831636336640&permissions=3155968&scope=bot"],
             ["View on Github", "https://github.com/ttse76/iasip-bot"]
         ]
-    },
-    "sportsdata":{
-        "title":"Football Analytics",
-        "description":"This site follows my work in creating a statical model to predict outcomes of football games. Website is currently under construction.",
-        "links":[]
     }
-   
 }
