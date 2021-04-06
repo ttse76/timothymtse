@@ -17,4 +17,9 @@ router.get('/' + Connection, (req, res) => {
   res.render('weddingform.pug');
 });
 
+router.post('/submitguests', (req, res) => {
+  console.log(req.body);
+  res.redirect('/' + Connection);
+});
+
 module.exports = router;
