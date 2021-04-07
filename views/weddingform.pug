@@ -8,7 +8,11 @@ html
         link(rel='stylesheet' href='/css/style.css')
     body
         div(class="container")
-            div(class="row")
+            if hasResultMessage
+                div(class="row")
+                    div(class="col")
+                        h2(style="color: white;")=resultMessage
+            div(class="row p-3")
                 div(class="col")
                     form(name="guestform" action="/submitguests" method="post")
                         div(class="form-group")
@@ -20,4 +24,10 @@ html
                         div(class="form-group")
                             label(for="guestPhone" class="section-header")="Guest Phone"
                             input(type="text" name="guestPhone" id="guestPhone" class="form-control")
+                        div(class="form-group")
+                            label(for="guestCount" class="section-header")="Guest Count"
+                            input(type="text" name="guestCount" id="guestCount" class="form-control")
                         button(class="nav-btn btn" type="Submit")="Submit"
+            div(class="row p-3")
+                div(class="col-lg-3")
+                    a(class="nav-btn btn" href="/" + Connection + "/all")="See All Guests"

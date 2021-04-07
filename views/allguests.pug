@@ -1,0 +1,32 @@
+doctype html
+html
+    head
+        title= title
+        meta(name="description" content="Website of Timothy Tse")
+        meta(name="keywords" content="tim, timothy, timothy tse, timothy m tse, programming, programmer, software, engineer, javascript, java, node, express, pug, web development, python")
+        link(rel='stylesheet' href='/css/bootstrap.min.css')
+        link(rel='stylesheet' href='/css/style.css')
+    body
+        div(class="container")
+            div(class="row p-3")
+                    div(class="col")
+                        a(class="nav-btn btn" href="/" + Connection)="Back"
+            div(class="row p-3")
+                    div(class="col")
+                        table(class="table table-striped" style="background-color:white;")
+                            thead
+                                tr 
+                                    th(scope="col")="Name"
+                                    th(scope="col")="Email"
+                                    th(scope="col")="Phone Number"
+                                    th(scope="col")="Number of Guests"
+                                    th(scope="col")="Actions"
+                            tbody 
+                                each guest in guests 
+                                    tr 
+                                        td=guest.name 
+                                        td=guest.email 
+                                        td=guest.phone 
+                                        td=guest.numguests
+                                        td
+                                            a(href='/' + Connection + '/delete?id=' + guest._id)="Delete"
