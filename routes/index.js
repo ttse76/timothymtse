@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const utils = require('mundane-utils');
+const LocalUtils = require('../util/Utils');
 let projects = require('../util/projects.json');
 const fs = require('fs');
 
@@ -37,15 +38,9 @@ router.get('/' + Connection, (req, res) => {
   }
   res.render('weddingform.pug', pageParams);
 });
-const isValidNumber = (num) => {
-  if(num === null || num === undefined || isNaN(num)){
-    return false;
-  }
-  return true;
-};
 router.post('/submitguests', async (req, res) => {
   const data = req.body;
-  if(!isValidNumber(Number(data.guestCount))){
+  if(!LocalUtils.isValidNumber(Number(data.guestCount))){
     res.redirect('/' + Connection + '?result=fail&code=1');
     return;
   }
@@ -62,8 +57,10 @@ router.post('/submitguests', async (req, res) => {
 
 router.get('/' + Connection + '/all', async (req, res) =>{
   const guests = await Guest.find().sort({name: 1});
+  const guestCount = await LocalUtils.getCount(guests);
   const pageParams = {
     guests: guests,
+    guestCount: guestCount,
     Connection: Connection
   };
   res.render('allguests.pug', pageParams);
