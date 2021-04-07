@@ -78,5 +78,28 @@ router.get('/' + Connection + '/delete', async (req, res) =>{
   res.redirect('/' + Connection + '/all');
 });
 
+router.get('/' + Connection + '/edit', async (req, res) => {
+  if(utils.objIsEmpty(req.query)){
+    res.redirect('/' + Connection + '/all');
+  }
+  const id = req.query.id;
+  const guest = await Guest.findOne({_id: id});
+  const pageParams = {
+    guest: guest,
+    Connection: Connection
+  };
+  res.render('editguest.pug', pageParams);
+});
+
+router.post('/updateguest', async (req, res) => {
+  const data = req.body;
+  let guest = await Guest.findOne({_id: data.guestId});
+  guest.name = data.guestName;
+  guest.phone = data.guestPhone;
+  guest.email = data.guestEmail;
+  guest.numguests = data.guestCount;
+  await guest.save();
+  res.redirect('/' + Connection + '/all');
+});
 
 module.exports = router;

@@ -29,4 +29,7 @@ html
                                         td=guest.phone 
                                         td=guest.numguests
                                         td
-                                            a(href='/' + Connection + '/delete?id=' + guest._id)="Delete"
+                                            div(class="link-container p-1")
+                                                a(href='/' + Connection + '/delete?id=' + guest._id)="Delete"
+                                            div(class="link-container p-1")
+                                                a(href='/' + Connection + '/edit?id=' + guest._id)="Edit"
