@@ -47,7 +47,7 @@ router.post('/submitguests', async (req, res) => {
   const newGuest = new Guest({
     name: data.guestName,
     email: data.guestEmail,
-    phone: data.guestPhone,
+    phone: convertPhone(data.guestPhone),
     numguests: Number(data.guestCount)
   });
 
@@ -88,11 +88,27 @@ router.get('/' + Connection + '/edit', async (req, res) => {
   res.render('editguest.pug', pageParams);
 });
 
+router.get('/' + Connection + '/csv', async (req, res) => {
+  const guests = await Guest.find().sort({name:1});
+  let out = '';
+  guests.forEach(guest => {
+    out += guest.name + ',' + guest.email + ',' + guest.phone + '\n';
+  });
+  fs.writeFileSync('public/guests.csv', out);
+  res.redirect('/guests.csv');
+});
+
+const convertPhone = (number) => {
+  number = number.replace(/(\d{3})(\d{3})(\d{4})/, "$1-$2-$3");
+  return number;
+}; 
+
+
 router.post('/updateguest', async (req, res) => {
   const data = req.body;
   let guest = await Guest.findOne({_id: data.guestId});
   guest.name = data.guestName;
-  guest.phone = data.guestPhone;
+  guest.phone = convertPhone(data.guestPhone);
   guest.email = data.guestEmail;
   guest.numguests = data.guestCount;
   await guest.save();

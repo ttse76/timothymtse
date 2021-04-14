@@ -2,3 +2,4 @@
 contact.pug.o
 projects.pug.o
 /secrets
+/public/guests.csv

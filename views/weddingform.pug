@@ -17,7 +17,7 @@ html
                     form(name="guestform" action="/submitguests" method="post")
                         div(class="form-group")
                             label(for="guestName" class="section-header")="Guest Name"
-                            input(type="text" name="guestName" id="guestName" class="form-control")
+                            input(type="text" name="guestName" id="guestName" class="form-control" required)
                         div(class="form-group")
                             label(for="guestEmail" class="section-header")="Guest Email"
                             input(type="email" name="guestEmail" id="guestEmail" class="form-control")
