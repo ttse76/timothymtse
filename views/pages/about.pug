@@ -1,20 +1,6 @@
 div(id="about" class="full-height d-flex align-items-center")
     div(class="h-100 row align-items-center")
         div(class="col-lg-8 offset-lg-2")
-            h2(class="section-header")="Hello!"
-            p(class="paragraph-text")="My name is Timothy Tse. I am a software engineer based out of northern New Jersey."
-            p(class="paragraph-text")="I enjoy working with a wide array of technologies. My goal is to help deliver a product that solves problems."
-            p(class="paragraph-text")="I currently work at Quadpay, where I am a Software Engineer II on the Fraud & Risk team."
-            p(class="paragraph-text")="Here are some technologies I have been using:"
-            table(class="table tech-table")
-                tbody
-                    tr
-                        th(class="tech-item")="--Java"
-                        th(class="tech-item")="--Javascript"
-                        th(class="tech-item")="--Python"
-                        th(class="tech-item")="--SQL"
-                    tr
-                        th(class="tech-item")="--Node"
-                        th(class="tech-item")="--Express"
-                        th(class="tech-item")="--React"
-                        th(class="tech-item")="--Pug"
+            h2(class="section-header")=about[0]
+            - for(var i = 1; i < about.length; i++)
+                p(class="paragraph-text") !{about[i]}

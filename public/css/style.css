@@ -85,6 +85,19 @@ nav{
   color: white;
 }
 
+.paragraph-link{
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #42eb00;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.paragraph-link:hover{
+  color: #299100;
+  text-decoration: none;
+}
+
 .tech-list{
   list-style-type: square;
 }
