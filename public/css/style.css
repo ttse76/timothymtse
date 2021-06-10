@@ -213,3 +213,7 @@ nav{
 .list-group-item{
   background-color: transparent;
 }
+
+.contact-tooltip {
+  display:inline-block;
+}

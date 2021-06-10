@@ -5,9 +5,9 @@ $(document).ready(function(){
         preloader.delay(1000);
         preloader.fadeOut(preloaderFadeOutTime);
     }
+    $('#encryptedEmail').addClass('contact-link').attr('target', '_blank').html('<div class="contact-tooltip" title="Email" data-toggle="tooltip" data-placement="bottom"><img class="contact-img" src="/img/gmail.png" ></div>');
+
+    $('[data-toggle="tooltip"]').tooltip();
+
     hidePreloader();
-    $('#encryptedEmail').addClass('contact-link').attr('target', '_blank').html('<img class="contact-img" src="/img/gmail.png" >');
-    $('div').tooltip({
-        container: '.contact-source'
-     });
 });
