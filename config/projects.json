@@ -8,11 +8,26 @@
             ]
         },
         {
+            "title": "PokerPlayer",
+            "description": "A poker playing program written in C#. End goal is to have a player vs ai poker games with multiple different games. Currently working on the analyzing of poker hands to determine hand type and winner between two hands.",
+            "links":[
+                ["View on Github", "https://github.com/ttse76/PokerPlayer"]
+            ]
+        },
+        {
             "title": "Discord Soundboard",
             "description": "Discord Soundboard is a framework to simplify the process of creating soundboard bots for Discord. Initalizing it requires only two lines of code with all setup in a JSON file.",
             "links":[
                 ["View on Github", "https://github.com/ttse76/discord-soundboard"],
                 ["View on the NPM registry", "https://www.npmjs.com/package/discord-soundboard"]
+            ]
+        },
+        {
+            "title": "\"It's Always Sunny in Philadelphia\" Soundboard",
+            "description": "This is a discord bot that operates as a soundboard for quotes from 'It's Always Sunny in Philadelphia'.",
+            "links":[
+                ["Invite this bot to your server!", "https://discord.com/oauth2/authorize?client_id=334873831636336640&permissions=3155968&scope=bot"],
+                ["View on Github", "https://github.com/ttse76/iasip-bot"]
             ]
         },
         {
@@ -24,11 +39,11 @@
             ]
         },
         {
-            "title": "IASIP Soundboard",
-            "description": "This is a discord bot that operates as a soundboard for quotes from 'It's Always Sunny in Philadelphia'.",
+            "title": "Universal Tester",
+            "description": "Node package for simple test reporting.",
             "links":[
-                ["Invite this bot to your server!", "https://discord.com/oauth2/authorize?client_id=334873831636336640&permissions=3155968&scope=bot"],
-                ["View on Github", "https://github.com/ttse76/iasip-bot"]
+                ["View on Github", "https://github.com/ttse76/universal-tester"],
+                ["View on the NPM registry", "https://www.npmjs.com/package/universal-tester"]
             ]
         }
     ]
