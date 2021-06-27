@@ -75,17 +75,16 @@ nav{
 .section-header{
   color:#33CBF4;
   font-family: 'Comfortaa', cursive;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .paragraph-text{
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
 .paragraph-link{
-  font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
   color: #33CBF4;
   text-decoration: none;
@@ -129,12 +128,14 @@ nav{
   font-family: 'Montserrat', sans-serif;
   color: white;
   text-align: left;
+  font-size: 1rem;
 }
 
 .card-link{
   color: #33CBF4;
   font-family: 'Roboto Mono', monospace;
   transition: 0.3s;
+  font-size: 1rem;
 }
 
 .card-link:hover{
@@ -165,7 +166,7 @@ nav{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #000b1b;
+  background-color: black;
   z-index: 999999;
 }
 
@@ -174,7 +175,7 @@ nav{
     padding-top: 5px;
   }
   .nav-btn{
-    border-color: #000b1b;
+    border-color: black;
     width: 100px;
   }
 }
