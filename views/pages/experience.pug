@@ -4,3 +4,5 @@ div(id="experience" class="full-height d-flex align-items-center")
             div(class="row")
                 div(class="col")
                     h2(class="section-header" style="padding-bottom:5px;")="Experience"
+            each role in roles
+                include ../templates/role.pug
