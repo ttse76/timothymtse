@@ -1,4 +1,12 @@
 {
+    "about":[
+        "Hello!",
+        "My name is Timothy Tse. I am a software engineer based out of northern New Jersey. I am also the proud father of two birds and two cats!",
+        "I enjoy working with a wide array of technologies. My goal is to help deliver modern solutions to modern problems.",
+        "I currently work at Quadpay, where I am a Software Engineer II on the Fraud & Risk team.",
+        "If you would like to see my work, check out the <a class=\"paragraph-link\" href=\"#projects\">projects</a> section below!",
+        "You can also check out my LinkedIn and GitHub in the <a class=\"paragraph-link\" href=\"#contact\">contact</a> section."
+    ],
     "projects": [
         {
             "title": "This Site",
@@ -44,6 +52,30 @@
             "links":[
                 ["View on Github", "https://github.com/ttse76/universal-tester"],
                 ["View on the NPM registry", "https://www.npmjs.com/package/universal-tester"]
+            ]
+        }
+    ],
+    "roles":[
+        {
+            "company": "Quadpay",
+            "location": "New York City",
+            "title": "Software Engineer II, Risk",
+            "logo": "quadpay.png",
+            "highlights": [
+                "Responsible for decisioning and risk analysis services",
+                "Built Python service with FastAPI to calculate credit report features"
+            ]
+        },
+        {
+            "company": "Datacor",
+            "location": "Florham Park, NJ",
+            "title": "Software Engineer",
+            "logo": "datacor.png",
+            "highlights": [
+                "Team responsible for development and maintenance of Datacor CRM",
+                "Created a sales analysis view with ReactJS",
+                "Worked on backend sales calculations",
+                "Prepared presentations and demonstrations of CRM features"
             ]
         }
     ]
