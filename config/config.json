@@ -37,22 +37,6 @@
                 ["Invite this bot to your server!", "https://discord.com/oauth2/authorize?client_id=334873831636336640&permissions=3155968&scope=bot"],
                 ["View on Github", "https://github.com/ttse76/iasip-bot"]
             ]
-        },
-        {
-            "title": "mundane-utils",
-            "description": "A simple lightweight package that performs common coding tasks, like checking if a string is empty and removing an item from an array. This allows your code to not be taken up by utility functions, instead placing them all in a single package.",
-            "links":[
-                ["View on Github", "https://github.com/ttse76/mundane-utils"],
-                ["View on the NPM registry", "https://www.npmjs.com/package/mundane-utils"]
-            ]
-        },
-        {
-            "title": "Universal Tester",
-            "description": "Node package for simple test reporting.",
-            "links":[
-                ["View on Github", "https://github.com/ttse76/universal-tester"],
-                ["View on the NPM registry", "https://www.npmjs.com/package/universal-tester"]
-            ]
         }
     ],
     "roles":[
