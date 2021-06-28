@@ -1,0 +1,26 @@
+{
+    "roles":[
+        {
+            "company": "Quadpay",
+            "location": "New York City",
+            "title": "Software Engineer II, Risk",
+            "logo": "quadpay.png",
+            "highlights": [
+                "Responsible for decisioning and risk analysis services",
+                "Built Python service with FastAPI to calculate credit report features"
+            ]
+        },
+        {
+            "company": "Datacor",
+            "location": "Florham Park, NJ",
+            "title": "Software Engineer",
+            "logo": "datacor.png",
+            "highlights": [
+                "Team responsible for development and maintenance of Datacor CRM",
+                "Created a sales analysis view with ReactJS",
+                "Worked on backend sales calculations",
+                "Prepared presentations and demonstrations of CRM features"
+            ]
+        }
+    ]
+}
