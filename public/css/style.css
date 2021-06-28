@@ -101,7 +101,7 @@ nav{
 }
 .tech-item{
   color: #33CBF4;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.1rem;
 }
 
@@ -133,7 +133,7 @@ nav{
 
 .card-link{
   color: #33CBF4;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
   transition: 0.3s;
   font-size: 1rem;
 }
@@ -216,4 +216,36 @@ nav{
 
 .contact-tooltip {
   display:inline-block;
+}
+
+.company-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+/** Roles **/
+
+.role-title {
+  color: #33CBF4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.role-company, .role-location, .role-dates {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+.role-location, .role-dates {
+  font-size: 1rem;
+}
+
+.role-highlights-list{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
 }
