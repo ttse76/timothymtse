@@ -61,22 +61,28 @@
             "location": "New York City",
             "title": "Software Engineer II, Risk",
             "logo": "quadpay.png",
+            "roundLogo": true,
             "highlights": [
                 "Responsible for decisioning and risk analysis services",
                 "Built Python service with FastAPI to calculate credit report features"
-            ]
+            ],
+            "start": "March 2021",
+            "end": "Present"
         },
         {
             "company": "Datacor",
             "location": "Florham Park, NJ",
             "title": "Software Engineer",
             "logo": "datacor.png",
+            "roundLogo": false,
             "highlights": [
                 "Team responsible for development and maintenance of Datacor CRM",
                 "Created a sales analysis view with ReactJS",
                 "Worked on backend sales calculations",
                 "Prepared presentations and demonstrations of CRM features"
-            ]
+            ],
+            "start": "September 2017",
+            "end": "March 2021"
         }
     ]
 }
