@@ -1,3 +1,21 @@
-div(class="row")
+div(class="row p-4")
     div(class="col-lg-3")
-        img(src="img/" + role.logo)
+        if role.roundLogo
+            img(src="img/" + role.logo class="company-logo round")
+        else
+            img(src="img/" + role.logo class="company-logo")
+    div(class="col-lg-9")
+        div(class="row")
+            div(class="col")
+                h2(class="role-title")=role.title
+        div(class="row")
+            div(class="col")
+                p(class="role-company")=role.company
+        div(class="row")
+            div(class="col")
+                p(class="role-dates")=role.start + ' - ' + role.end
+        div(class="row")
+            div(class="col")
+                ul(class="role-highlights-list")
+                    each highlight in role.highlights
+                        li(class="role-highlights-item")=highlight
