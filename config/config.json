@@ -41,14 +41,16 @@
     ],
     "roles":[
         {
-            "company": "Quadpay",
+            "company": "Zip Co",
             "location": "New York City",
             "title": "Software Engineer II, Risk",
-            "logo": "quadpay.png",
+            "logo": "zip.png",
             "roundLogo": true,
             "highlights": [
                 "Responsible for decisioning and risk analysis services",
-                "Built Python service with FastAPI to calculate credit report features"
+                "Built Python service with FastAPI to calculate credit report features",
+                "Integrated new credit limit calculation system",
+                "Integrated payment plan calculation system for promotions"
             ],
             "start": "March 2021",
             "end": "Present"
