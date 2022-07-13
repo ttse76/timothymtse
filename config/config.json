@@ -3,7 +3,7 @@
         "Hello!",
         "My name is Timothy Tse. I am a software engineer based out of northern New Jersey. I am also the proud father of two birds and two cats!",
         "I enjoy working with a wide array of technologies. My goal is to help deliver modern solutions to modern problems.",
-        "I was most recenty at Zip Co on the decisioning team, overseeing fraud prevention and risk analysis systems. I am now looking for my next challenge!",
+        "I am currently a full stack developer at <a target=\"_blank\" class=\"paragraph-link\" href=\"https://www.viewpost.com/\">Viewpost</a>, a B2B payments platform.",
         "If you would like to see my work, check out the <a class=\"paragraph-link\" href=\"#projects\">projects</a> section below!",
         "You can also check out my LinkedIn and GitHub in the <a class=\"paragraph-link\" href=\"#contact\">contact</a> section."
     ],
@@ -16,10 +16,18 @@
             ]
         },
         {
-            "title": "PokerPlayer",
-            "description": "A poker playing program written in C#. End goal is to have a player vs ai poker games with multiple different games. Currently working on the analyzing of poker hands to determine hand type and winner between two hands.",
+            "title": "Discord Tunes",
+            "description": "A framework to create your own music playing bot for discord. Currently only supports YouTube.",
             "links":[
-                ["View on Github", "https://github.com/ttse76/PokerPlayer"]
+                ["View on Github", "https://github.com/ttse76/discord-tunes"]
+            ]
+        },
+        {
+            "title": "keypress-util",
+            "description": "A lightweight utility to help with projects involving keyboard keycodes and keypresses",
+            "links": [
+                ["View on Github", "https://github.com/ttse76/keypress-util"],
+                ["View on the NPM registry", "https://www.npmjs.com/package/keypress-util"]
             ]
         },
         {
@@ -29,17 +37,20 @@
                 ["View on Github", "https://github.com/ttse76/discord-soundboard"],
                 ["View on the NPM registry", "https://www.npmjs.com/package/discord-soundboard"]
             ]
-        },
-        {
-            "title": "\"It's Always Sunny in Philadelphia\" Soundboard",
-            "description": "This is a discord bot that operates as a soundboard for quotes from 'It's Always Sunny in Philadelphia'.",
-            "links":[
-                ["Invite this bot to your server!", "https://discord.com/oauth2/authorize?client_id=334873831636336640&permissions=3155968&scope=bot"],
-                ["View on Github", "https://github.com/ttse76/iasip-bot"]
-            ]
         }
     ],
     "roles":[
+        {
+            "company": "Viewpost",
+            "location": "Orlando, FL",
+            "title": "Full Stack Developer",
+            "logo": "vp.png",
+            "roundLogo": true,
+            "highlights": [],
+            "start": "July 2022",
+            "end": "Present"
+
+        },
         {
             "company": "Zip Co",
             "location": "New York City",
