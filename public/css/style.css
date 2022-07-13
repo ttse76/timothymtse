@@ -219,12 +219,17 @@ nav{
 }
 
 .company-logo {
-  width: 75%;
-  height: 75%;
+  overflow: hidden;
 }
 
 .round {
   border-radius: 50%;
+}
+
+.company-img {
+  width: 40%;
+  height: 40%;
+  object-fit: fill;
 }
 
 /** Roles **/
