@@ -10,7 +10,7 @@
     "projects": [
         {
             "title": "This Site",
-            "description": "This site is fully open source. Technologies being used include Node, Express, Pug, and Bootstrap.",
+            "description": "Built with Node, Express, Pug, and Bootstrap.",
             "links":[
                 ["View on Github", "https://github.com/ttse76/timothymtse"]    
             ]
@@ -31,11 +31,10 @@
             ]
         },
         {
-            "title": "Discord Soundboard",
-            "description": "Discord Soundboard is a framework to simplify the process of creating soundboard bots for Discord. Initalizing it requires only two lines of code with all setup in a JSON file.",
+            "title": "Video Library",
+            "description": "A YouTube-like site to help organize videos on your local device or host your own video site. Currently a work in progress.",
             "links":[
-                ["View on Github", "https://github.com/ttse76/discord-soundboard"],
-                ["View on the NPM registry", "https://www.npmjs.com/package/discord-soundboard"]
+                ["View on Github", "https://github.com/ttse76/video-library"]
             ]
         }
     ],
